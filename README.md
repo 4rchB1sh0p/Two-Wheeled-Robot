@@ -4,8 +4,11 @@ A two-wheeled self-balancing robot, PID control architecture. Four PID controlle
 
 ## Description of 4 Tasks 
 [1. Driving as fast as possible a distance of 3m.](https://youtu.be/GVCfIpjXQpA)
+
 [2. Similar to 1. But additionally a 360° turn at about 1m and 2m travelled.](https://youtu.be/I-p1T8EGFV4)
+
 [3. During balancing an additional weight is added and the robot compensate it (stay/return).](https://youtu.be/bfeMjUOOEl0)
+
 [4. Driving a figure 8 by combining two circles with 1m diameter each.](https://youtu.be/K3pilkZ1mBU)
 
 ## Repository Contents
