@@ -38,8 +38,8 @@ A two-wheeled self-balancing robot, PID control architecture. Four PID controlle
 7. logic level shifter (3,3V <-> 5V)
 8. off/on switch
 9. I/O header pins for prototype shield
-10.ultra sonic ranger connector
-11.line finder connector (left and right)
-12.battery main connector
-13.battery balance connector
-14.charger balance connector
+10. ultra sonic ranger connector
+11. line finder connector (left and right)
+12. battery main connector
+13. battery balance connector
+14. charger balance connector
