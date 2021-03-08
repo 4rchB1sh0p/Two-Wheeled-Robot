@@ -17,13 +17,17 @@ A two-wheeled self-balancing robot, PID control architecture. Four PID controlle
 - **schematics** - Hardware schematic of the robot
 
 ## The self balancing two wheeled robot
-![](https://github.com/heethesh/Balance-Bot/blob/master/images/Balance%20Bot%20Components.jpg)
+![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/robot_1.JPG)
 
 ## Hardware
-![](https://github.com/heethesh/Balance-Bot/blob/master/images/Wireless%20Joystick%20Controller.jpg)
+![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/hardware.JPG)
+
+![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/hardware_2.JPG)
+
 
 ## Mainboard
-![](https://github.com/heethesh/Balance-Bot/blob/master/images/Cascaded%20PID%20Block%20D
+![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/mainBoard.JPG)
+
 
 1. Arduino MKR1010 WiFi
 2. BLDC motor driver
