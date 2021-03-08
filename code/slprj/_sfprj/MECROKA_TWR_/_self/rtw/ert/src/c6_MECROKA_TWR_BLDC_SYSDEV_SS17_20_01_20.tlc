@@ -1,0 +1,88 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   10 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c6_MECROKA_TWR_BLDC_SYSDEV_SS17_20_01_20"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_set_autonomous_targets"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "set_autonomous_targets"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Operation_mode_1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "set_autonomous_targets.Operation_mode_1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Operation_mode_2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "set_autonomous_targets.Operation_mode_2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Operation_mode_3"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "set_autonomous_targets.Operation_mode_3"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Operation_mode_4"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "set_autonomous_targets.Operation_mode_4"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "presentTicks"\
+      Description  "CurrentCount"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "elapsedTicks"\
+      Description  "ElapsedCount"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "previousTicks"\
+      Description  "PreviousCount"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
